@@ -1,137 +1,566 @@
-body {
+@media screen and (min-width:1280px) and (max-width:1920px) {
+    body {
     background-image: url(./images/background.png);
     background-size: 1600px 800px;
     background-repeat: no-repeat;
+    }
+
+    ._header {
+        background-color: rgb(34, 37, 43);
+        width: 100%;
+        height: 50px;
+        position: absolute;
+        top: 2%;
+        left: 0%;
+        z-index: 1;
+    }
+
+    .sec_background {
+        background-color: rgba(0, 0, 0, 0.5);
+        width: 90%;
+        height: 95%;
+        position: absolute;
+        left: 5%;
+        top: 8%;
+    }
+
+    .block {
+        display: block;
+        position: absolute;
+        left: 750px;
+        width: 100%;
+        height: 100%;
+    }
+
+    .go_left {
+        display: inline;
+        float: left;
+        margin-left: 5%;
+        color: white;
+        background-color: rgb(31, 36, 43);
+        border-radius: 10px;
+        border-color: black;
+        font-family: Andale Mono, monospace;
+    }
+
+    .go_right {
+        display: inline;
+        float: left;
+        margin-left: 5%;
+        color: white;
+        font-family:'Courier New', Courier, monospace;
+    }
+
+    .search_local {
+        background-color: rgb(255, 255, 255);
+        width: 50%;
+        height: 6%;
+        border-radius: 10px;
+        position: absolute;
+        top: 10%;
+        left: 25%;
+    }
+
+    .viagem_texto {
+        font-size: 25px;
+        position: absolute;
+        top: -20px;
+        left: 20px;
+        color: gray;
+    }
+
+    .viagem_img {
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        left: -40px;
+        top: 5px;
+    }
+
+    .line {
+        width: 75%;
+        height: 1.5px;
+        background-color: white;
+        position: absolute;
+        top: 25%;
+        left: 12%;
+        border-radius: 10px;
+    }
+
+    .second_part {
+        width: 90%;
+        height: 50%;
+        position: absolute;
+        left: 5%;
+        top: 38%;
+    }
+
+    .article_size1 {
+        width: 50%;
+        height: 100%;
+        position: absolute;
+        top: 0%;
+    }
+
+    .text_config {
+        word-break: break-all;
+        color: white;
+        font-size: 20px;
+        padding: 10px;
+        margin: 30px;
+    }
+
+    .img_confing {
+        height: 75%;
+        width: 75%;
+        position: absolute;
+        top: 12%;
+        left: 120%;
+    }
+
+    .three_bgfooter {
+        background-color: rgb(74, 67, 67);
+        width: 100%;
+        height: 3%;
+        position: absolute;
+        left: 0%;
+        top: 100%;
+    }
+
+    .login {
+        background-color: rgba(0, 0, 0, 0.7);
+        height: 100px;
+        width: 350px;
+        position: absolute;
+        left: 25%;
+        top: 69%;
+        padding: 10px;
+    }
 }
 
-._header {
-    background-color: rgb(34, 37, 43);
-    width: 100%;
-    height: 50px;
-    position: absolute;
-    top: 2%;
-    left: 0%;
-    z-index: 1;
+@media screen and (min-width:1280px) and (max-width:1920px) {
+    body {
+    background-image: url(./images/background.png);
+    background-size: 1600px 800px;
+    background-repeat: no-repeat;
+    }
+
+    ._header {
+        background-color: rgb(34, 37, 43);
+        width: 100%;
+        height: 50px;
+        position: absolute;
+        top: 2%;
+        left: 0%;
+        z-index: 1;
+    }
+
+    .sec_background {
+        background-color: rgba(0, 0, 0, 0.5);
+        width: 90%;
+        height: 95%;
+        position: absolute;
+        left: 5%;
+        top: 8%;
+    }
+
+    .block {
+        display: block;
+        position: absolute;
+        left: 750px;
+        width: 100%;
+        height: 100%;
+    }
+
+    .go_left {
+        display: inline;
+        float: left;
+        margin-left: 5%;
+        color: white;
+        background-color: rgb(31, 36, 43);
+        border-radius: 10px;
+        border-color: black;
+        font-family: Andale Mono, monospace;
+    }
+
+    .go_right {
+        display: inline;
+        float: left;
+        margin-left: 5%;
+        color: white;
+        font-family:'Courier New', Courier, monospace;
+    }
+
+    .search_local {
+        background-color: rgb(255, 255, 255);
+        width: 50%;
+        height: 6%;
+        border-radius: 10px;
+        position: absolute;
+        top: 10%;
+        left: 25%;
+    }
+
+    .viagem_texto {
+        font-size: 25px;
+        position: absolute;
+        top: -20px;
+        left: 20px;
+        color: gray;
+    }
+
+    .viagem_img {
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        left: -40px;
+        top: 5px;
+    }
+
+    .line {
+        width: 75%;
+        height: 1.5px;
+        background-color: white;
+        position: absolute;
+        top: 25%;
+        left: 12%;
+        border-radius: 10px;
+    }
+
+    .second_part {
+        width: 90%;
+        height: 50%;
+        position: absolute;
+        left: 5%;
+        top: 38%;
+    }
+
+    .article_size1 {
+        width: 50%;
+        height: 100%;
+        position: absolute;
+        top: 0%;
+    }
+
+    .text_config {
+        word-break: break-all;
+        color: white;
+        font-size: 20px;
+        padding: 10px;
+        margin: 30px;
+    }
+
+    .img_confing {
+        height: 75%;
+        width: 75%;
+        position: absolute;
+        top: 12%;
+        left: 120%;
+    }
+
+    .three_bgfooter {
+        background-color: rgb(74, 67, 67);
+        width: 100%;
+        height: 3%;
+        position: absolute;
+        left: 0%;
+        top: 100%;
+    }
+
+    .login {
+        background-color: rgba(0, 0, 0, 0.7);
+        height: 100px;
+        width: 350px;
+        position: absolute;
+        left: 25%;
+        top: 69%;
+        padding: 10px;
+    }
 }
 
-.sec_background {
-    background-color: rgba(0, 0, 0, 0.5);
-    width: 90%;
-    height: 95%;
-    position: absolute;
-    left: 5%;
-    top: 8%;
+@media screen and (min-width:1280px) and (max-width:1920px) {
+    body {
+    background-image: url(./images/background.png);
+    background-size: 1600px 800px;
+    background-repeat: no-repeat;
+    }
+
+    ._header {
+        background-color: rgb(34, 37, 43);
+        width: 100%;
+        height: 50px;
+        position: absolute;
+        top: 2%;
+        left: 0%;
+        z-index: 1;
+    }
+
+    .sec_background {
+        background-color: rgba(0, 0, 0, 0.5);
+        width: 90%;
+        height: 95%;
+        position: absolute;
+        left: 5%;
+        top: 8%;
+    }
+
+    .block {
+        display: block;
+        position: absolute;
+        left: 750px;
+        width: 100%;
+        height: 100%;
+    }
+
+    .go_left {
+        display: inline;
+        float: left;
+        margin-left: 5%;
+        color: white;
+        background-color: rgb(31, 36, 43);
+        border-radius: 10px;
+        border-color: black;
+        font-family: Andale Mono, monospace;
+    }
+
+    .go_right {
+        display: inline;
+        float: left;
+        margin-left: 5%;
+        color: white;
+        font-family:'Courier New', Courier, monospace;
+    }
+
+    .search_local {
+        background-color: rgb(255, 255, 255);
+        width: 50%;
+        height: 6%;
+        border-radius: 10px;
+        position: absolute;
+        top: 10%;
+        left: 25%;
+    }
+
+    .viagem_texto {
+        font-size: 25px;
+        position: absolute;
+        top: -20px;
+        left: 20px;
+        color: gray;
+    }
+
+    .viagem_img {
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        left: -40px;
+        top: 5px;
+    }
+
+    .line {
+        width: 75%;
+        height: 1.5px;
+        background-color: white;
+        position: absolute;
+        top: 25%;
+        left: 12%;
+        border-radius: 10px;
+    }
+
+    .second_part {
+        width: 90%;
+        height: 50%;
+        position: absolute;
+        left: 5%;
+        top: 38%;
+    }
+
+    .article_size1 {
+        width: 50%;
+        height: 100%;
+        position: absolute;
+        top: 0%;
+    }
+
+    .text_config {
+        word-break: break-all;
+        color: white;
+        font-size: 20px;
+        padding: 10px;
+        margin: 30px;
+    }
+
+    .img_confing {
+        height: 75%;
+        width: 75%;
+        position: absolute;
+        top: 12%;
+        left: 120%;
+    }
+
+    .three_bgfooter {
+        background-color: rgb(74, 67, 67);
+        width: 100%;
+        height: 3%;
+        position: absolute;
+        left: 0%;
+        top: 100%;
+    }
+
+    .login {
+        background-color: rgba(0, 0, 0, 0.7);
+        height: 100px;
+        width: 350px;
+        position: absolute;
+        left: 25%;
+        top: 69%;
+        padding: 10px;
+    }
 }
 
-.block {
-    display: block;
-    position: absolute;
-    left: 750px;
-    width: 100%;
-    height: 100%;
-}
+@media screen and (min-width:0px) and (max-width:480px) {
+    body {
+    background-image: url(./images/background.png);
+    background-size: 400px 800px;
+    background-repeat: no-repeat;
+    }
 
-.go_left {
-    display: inline;
-    float: left;
-    margin-left: 5%;
-    color: white;
-    background-color: rgb(31, 36, 43);
-    border-radius: 10px;
-    border-color: black;
-    font-family: Andale Mono, monospace;
-}
+    ._header {
+        background-color: rgb(34, 37, 43);
+        width: 100%;
+        height: 50px;
+        position: absolute;
+        top: 2%;
+        left: 0%;
+        z-index: 1;
+    }
 
-.go_right {
-    display: inline;
-    float: left;
-    margin-left: 5%;
-    color: white;
-    font-family:'Courier New', Courier, monospace;
-}
+    .sec_background {
+        background-color: rgba(0, 0, 0, 0.5);
+        width: 90%;
+        height: 95%;
+        position: absolute;
+        left: 5%;
+        top: 8%;
+    }
 
-.search_local {
-    background-color: rgb(255, 255, 255);
-    width: 50%;
-    height: 6%;
-    border-radius: 10px;
-    position: absolute;
-    top: 10%;
-    left: 25%;
-}
+    .block {
+        display: block;
+        position: absolute;
+        left: 15%;
+        width: 100%;
+        height: 100%;
+    }
 
-.viagem_texto {
-    font-size: 25px;
-    position: absolute;
-    top: -20px;
-    left: 20px;
-    color: gray;
-}
+    .go_left {
+        display: inline;
+        float: left;
+        margin-left: 5%;
+        color: white;
+        background-color: rgb(31, 36, 43);
+        border-color: black;
+        font-family: Andale Mono, monospace;
+        font-size: 10px;
+        position: relative;
+        top: -20%;
+        left: -20%;
+    }
 
-.viagem_img {
-    width: 30px;
-    height: 30px;
-    position: absolute;
-    left: -40px;
-    top: 5px;
-}
+    .go_right {
+        display: inline;
+        float: none;
+        margin-left: 5%;
+        color: white;
+        font-family:'Courier New', Courier, monospace;
+        font-size: 12px;
+        position: absolute;
+        top: 20%;
+        left: 25%;
+    }
 
-.line {
-    width: 75%;
-    height: 1.5px;
-    background-color: white;
-    position: absolute;
-    top: 25%;
-    left: 12%;
-    border-radius: 10px;
-}
+    .search_local {
+        background-color: rgb(255, 255, 255);
+        width: 50%;
+        height: 6%;
+        border-radius: 10px;
+        position: absolute;
+        top: 10%;
+        left: 25%;
+    }
 
-.second_part {
-    width: 90%;
-    height: 50%;
-    position: absolute;
-    left: 5%;
-    top: 38%;
-}
+    .viagem_texto {
+        font-size: 10px;
+        position: absolute;
+        top: 0px;
+        left: 20px;
+        color: gray;
+    }
 
-.article_size1 {
-    width: 50%;
-    height: 100%;
-    position: absolute;
-    top: 0%;
-}
+    .viagem_img {
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        left: -40px;
+        top: 5px;
+    }
 
-.text_config {
-    word-break: break-all;
-    color: white;
-    font-size: 20px;
-    padding: 10px;
-    margin: 30px;
-}
+    .line {
+        width: 75%;
+        height: 1.5px;
+        background-color: white;
+        position: absolute;
+        top: 25%;
+        left: 12%;
+        border-radius: 10px;
+    }
 
-.img_confing {
-    height: 75%;
-    width: 75%;
-    position: absolute;
-    top: 12%;
-    left: 120%;
-}
+    .second_part {
+        width: 90%;
+        height: 50%;
+        position: absolute;
+        left: 5%;
+        top: 38%;
+    }
 
-.three_bgfooter {
-    background-color: rgb(74, 67, 67);
-    width: 100%;
-    height: 3%;
-    position: absolute;
-    left: 0%;
-    top: 100%;
-}
+    .article_size1 {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: -25%;
+    }
 
-.login {
-    background-color: rgba(0, 0, 0, 0.7);
-    height: 100px;
-    width: 350px;
-    position: absolute;
-    left: 25%;
-    top: 69%;
-    padding: 10px;
+    .text_config {
+        word-break: normal;
+        color: white;
+        font-size: 10px;
+        padding: 10px;
+        margin: 30px;
+    }
+
+    .img_confing {
+        height: 50%;
+        width: 75%;
+        position: absolute;
+        top: 75%;
+        left: 12.5%;
+    }
+
+    .three_bgfooter {
+        background-color: rgb(74, 67, 67);
+        width: 100%;
+        height: 3%;
+        position: absolute;
+        left: 0%;
+        top: 100%;
+    }
+
+    .login {
+        background-color: rgba(0, 0, 0, 0.7);
+        height: 90px;
+        width: 200px;
+        position: absolute;
+        left: -400%;
+        top: 400%;
+        padding: 10px;
+    }
 }
